@@ -1,0 +1,242 @@
+@font-face {
+ font-family: bradley;
+ src:url('../font/bradley_hand_itc_tt_bold.ttf');
+}
+body{
+    width: 640px;
+    height: 1961px;
+    color: #fff;
+}
+/*=========header============*/
+.circle{
+    border-radius: 100%;
+    position: absolute;
+    
+}
+.header-center{
+    position: relative;
+    width: 608px;
+    height: 486px;
+    background-image: linear-gradient(to right,rgb(43, 112, 248),rgb(12, 0, 170));
+    border-radius: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.header-center .c1{
+    left: 19.3%;
+    right: 74.06%;
+    top: -3.77%;
+    bottom: 92.21%;
+    background: linear-gradient(315deg, rgba(9, 98, 148, 0.8) 0%, rgba(51, 163, 225, 0.42) 50%);
+    background-blend-mode: hard-light;
+    margin-top: 18px;
+}
+.header-center h3{
+    font-family: bradley;
+}
+.header-main .c2{
+    left: 8.33%;
+    right: 88.58%;
+    top: 33.4%;
+    bottom: 62.74%;
+    background: linear-gradient(321.95deg, #59C3FF 0%, rgba(89, 195, 255, 0) 115.58%);
+    background-blend-mode: hard-light;
+}
+.header-main .c3{
+    left: 21.3%;
+    right: 70.06%;
+    top: 78.3%;
+    bottom: 11.13%;
+
+    background: linear-gradient(315deg, rgba(9, 98, 148, 0.8) 0%, rgba(51, 163, 225, 0.42) 50%);
+    background-blend-mode: hard-light;
+}
+.header-main h1{
+    position: absolute;
+    width: 490px;
+    height: 186px;
+    left: 75px;
+    top: 151px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FAFAFA;
+}
+.page-logo .c4{
+    /*margin: 250px 30px;*/
+    left: 87.59%;
+    59%: ;
+    right: 6.04%;
+    top: 10.82%;
+    bottom: 81.75%;
+    background: linear-gradient(295.23deg, #0C00AA 3.51%, #2B70F8 88.95%);
+}
+.page-logo img{
+    position: absolute;
+    right: -55px;
+    top: 260px;
+}
+/*========main=========*/
+.button-download .btn{
+    background: #000000;
+    color: #fff;
+    height: 43px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: 'SVN-Gilroy';
+    font-size: 12px;
+    
+}
+.button-download .btn i{
+    margin:5px 100px 5px -7px;
+}
+
+.button-download .btn img{
+   height: 26px;
+   width: 24px;
+   margin:5px 100px -5px -7px;
+}
+.button-download .btn p{
+    position: relative;
+    top: -47px;
+    left: 32px;
+    text-align: left;
+}
+.button-download .btn1 p{
+    margin-top: 17px;
+}
+.button-download .btn span{
+    font-size: 22px;
+}
+.content a{
+    color: #000000;
+    margin: 15px 4px;
+    text-decoration: none;
+}
+.container-top,
+.container-bottom{
+    color: #334155;
+    border: 1px solid #DFDEDE;
+    border-radius: 16px;
+}
+.container-top p{
+    margin: 32px 34px;
+    text-align: justify;
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.container-middle .banner{
+    background: #0C00AA;
+    height: 298px;
+}
+.container-bottom #email{ 
+  color: rgb(5, 96, 253);
+}
+
+.container-bottom form{
+    margin: 32px 34px;
+    font-family: 'SVN-Gilroy';
+}
+.container-bottom h3,
+.container-bottom #email,
+.container-bottom #passw
+{
+
+    margin-bottom: 15px;
+    border-style: none;
+}
+.container-bottom h3{
+    color: #0F172A;
+}
+.container-bottom .pass{
+    background: #F1F3F8;
+    width: 462px;
+    height: 48px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+
+}
+.container-bottom #passw{
+    background: inherit;
+    color: rgb(71, 85, 105);
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.container-bottom #submit{
+    margin-top: 42px ;
+
+    font-family: 'DM Sans';
+    width: 460px;
+    height: 52px;
+    background: #0C00AA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: ;
+    border-radius: 8px;
+}
+.download{
+    text-align: center;
+}
+.download .content{
+    color: #475569;
+    display: inline-flex;
+    
+    
+}
+.wrapper{
+    width: 530px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+
+/*========page-footer======*/
+.page-footer{
+    font-family: 'DM Sans';
+    color: #475569;
+    text-align: center;
+}
+
+/*==========mail02===========*/
+.page-header .cen2{
+    background: #fff;
+}
+.page-header .main2 h1{
+    color: #0F172A;
+    text-align: center;
+    margin: 200px auto;
+}
+.page-header .cen2 h3{
+    color: #0C00AA;
+    
+}
+.log2 img{
+    position: absolute;
+    left: 50px;
+    top: 70px;   
+}
+.page-main .wr2{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
